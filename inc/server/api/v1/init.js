@@ -41,23 +41,6 @@ Api.init = function(options){
     require('./routes')(app, options, methods);
 
 
-
-
-    options.io.on('connection', function (socket) {
-        //socket.emit('news', { hello: 'world' });
-        socket.on('new_data', function (data) {
-
-            if (!data.locations || !data.session) {
-                return false;
-            }
-            methods.getUserBySession(data.session, function(result){
-                methods.geoSockets(result.UserObjectId, data.locations);
-            })
-
-
-        });
-    });
-
     // catch all route
     app.all(
         '*',
