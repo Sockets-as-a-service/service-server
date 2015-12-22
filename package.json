@@ -1,0 +1,36 @@
+{
+  "name": "taplicious-server",
+  "version": "1.0.0",
+  "description": "Making concepts #junction2015",
+  "private": true,
+  "main": "web.js",
+  "dependencies": {
+    "async": "^1.3.0",
+    "body-parser": "^1.9.0",
+    "connect-ensure-login": "^0.1.1",
+    "cors": "^2.5.2",
+    "crypto": "0.0.3",
+    "express": "^4.9.5",
+    "express-session": "^1.11.3",
+    "helmet": "^0.9.0",
+    "mongoose": "4.0.0",
+    "passport": "^0.2.1",
+    "passport-custom": "^1.0.1",
+    "socket.io": "^1.2.1"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-contrib-nodeunit": "^0.4.1",
+    "nodeunit-httpclient": "^0.2.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@bitbucket.org:duxilio/taplicious-server"
+  },
+  "author": "",
+  "license": "ISC"
+}

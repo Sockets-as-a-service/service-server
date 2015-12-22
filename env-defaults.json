@@ -1,0 +1,6 @@
+{
+  "secret": "QET*FGQWHT*#8fyw9fhi23rhf9w8i2$%@WRF*WDS&fi23jrof98w3r",
+  "salt": "i834h689tghe89yh3asFI_",
+  "PORT": 9000,
+  "MONGO_URI": "127.0.0.1:27017/sockets-as-a-service"
+}
