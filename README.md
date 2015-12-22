@@ -1,5 +1,5 @@
 # Sockets as a Service
-Does it like the worst thing ever? Sockets in your own programming language? no control over external parties what they do with your data?
+Does it look like the worst thing ever? Sockets in your own programming language? no control over external parties what they do with your data?
 solution: host it your self!
 
 ## service server
